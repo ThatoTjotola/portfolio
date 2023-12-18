@@ -1,0 +1,104 @@
+/* Add this to your existing CSS file or create a new one */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #254f7e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    text-align: left; 
+}
+
+.profile-picture {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-right: 20px; 
+}
+
+.text-content {
+    flex: 1; /* Takes up remaining space */
+}
+
+.hero-content h1 {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #965858;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.portfolio {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #254f7e;
+    color: white;
+}
+
+.project-card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
