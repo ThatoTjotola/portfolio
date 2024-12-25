@@ -2,7 +2,7 @@
   <div id="app">
     <section class="hero">
       <div class="hero-content">
-        <img src="/mypic.jpg" alt="Jimmy picture" class="profile-picture" />
+        <img src="/portfolio/mypic.jpg" alt="Jimmy picture" class="profile-picture" />
         <div class="text-content">
           <h1>Welcome to Jimmy Tjotola's Portfolio</h1>
           <p>showcasing some work</p>
@@ -43,7 +43,7 @@ export default {
           id: 1,
           title: "OpenCV C# Project",
           description: "A facial recognition application using OpenCV.",
-          image: "/project-image.jpeg",
+          image: "/portfolio/project-image.jpeg",
           link: "https://github.com/ThatoTjotola/FacialRecognitionWindowsFormsAppVersionZERO",
         },
         {
@@ -57,7 +57,7 @@ export default {
           id: 3,
           title: "Trivia Game Project",
           description: "A trivia-based game using Kotlin and TriviaDB API.",
-          image: "/trivia.png",
+          image: "/portfolio//trivia.png",
           link: "https://github.com/ThatoTjotola/TriviaQuestionAppOpenTriviaDatabase",
         },
       ],
