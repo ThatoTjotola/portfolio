@@ -2,7 +2,9 @@
   <div id="app">
     <section class="hero">
       <div class="hero-content">
-        <img src="/portfolio/mypic.jpg" alt="Jimmy picture" class="profile-picture" />
+        <a href="https://ibb.co/44fmBPG">
+          <img src="https://i.ibb.co/MPh2qM4/1736481641499.jpg" alt="Jimmy picture" class="profile-picture" />
+        </a>
         <div class="text-content">
           <h1>Welcome to Jimmy Tjotola's Portfolio</h1>
           <p>showcasing some work</p>
